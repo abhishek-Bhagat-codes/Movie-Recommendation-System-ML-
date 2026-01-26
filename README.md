@@ -85,6 +85,20 @@ The project uses movie data from:
 - **movies.csv**: Movie metadata (titles, genres, budget, runtime, etc.)
 - **credits.csv**: Cast and crew information
 
+### ⚠️ **IMPORTANT: Download Training Data**
+
+The training datasets are **not included** in this repository due to file size limitations. You need to download them manually from Kaggle:
+
+**Kaggle Dataset Link:** https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credits.csv
+
+**Steps:**
+1. Visit the Kaggle link above
+2. Download both files:
+   - `tmdb_5000_movies.csv`
+   - `tmdb_5000_credits.csv`
+3. Place them in the `model_t/dataSet/` directory
+4. Run the `movie_recom.ipynb` notebook to generate the model files
+
 ## 🌐 API Integration
 
 The app integrates with **The Movie Database (TMDB) API** to:
