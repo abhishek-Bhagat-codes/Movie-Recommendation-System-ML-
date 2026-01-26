@@ -19,7 +19,7 @@ st.set_page_config(
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 POSTER_BASE_URL = "https://image.tmdb.org/t/p/w500"
 
-# ================= LOAD DATA =================
+# ================= LOAD DATA ===================
 @st.cache_data
 def load_movies():
     with open("movies_info/movies.json", "r", encoding="utf-8") as f:
