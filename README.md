@@ -82,8 +82,8 @@ movie_recommendation/
 ## 📊 Dataset
 
 The project uses movie data from:
-- **movies.csv**: Movie metadata (titles, genres, budget, runtime, etc.)
-- **credits.csv**: Cast and crew information
+- **tmdb_5000_movies.csv**: Movie metadata (titles, genres, budget, runtime, etc.)
+- **tmdb_5000_credits.csv**: Cast and crew information
 
 ### ⚠️ **IMPORTANT: Download Training Data**
 
